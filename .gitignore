@@ -4,3 +4,5 @@ build
 .fortls
 
 *.txt
+*.mod
+*.smod
