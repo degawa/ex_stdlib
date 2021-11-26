@@ -29,7 +29,7 @@ contains
         block
             integer(int32) :: a = 1
             ! `a==0`が`.false.`のとき，引数msgに渡した文字列を出力し，終了コード1でプログラムを終了する．
-            !  error: acctual value of a is not equal to expected value 0
+            !  error: actual value of a is not equal to expected value 0
             ! ERROR STOP 1
             call check(a == 0, msg="error: actual value of a is not equal to expected value 0")
         end block
@@ -37,7 +37,7 @@ contains
         block
             integer(int32) :: a = 2
             ! `a==0`が`.false.`のとき，引数msgに渡した文字列を出力し，終了コード77でプログラムを終了する．
-            !  error: acctual value of a is not equal to expected value 0
+            !  error: actual value of a is not equal to expected value 0
             ! ERROR STOP 77
             call check(a == 0, "error: actual value of a is not equal to expected value 0", code=77)
         end block
@@ -46,7 +46,7 @@ contains
             integer(int32) :: a = 3
             ! `a==0`が`.false.`のとき，引数msgに渡した文字列を出力する．
             ! 引数warnに`.true.`を渡すと，プログラムは終了しない．
-            !  warning: acctual value of a is not equal to expected value 0
+            !  warning: actual value of a is not equal to expected value 0
             call check(a == 0, "warning: actual value of a is not equal to expected value 0", warn=.true.)
         end block
     end subroutine ex_stdlib_error_check
