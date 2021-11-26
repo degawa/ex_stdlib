@@ -1,0 +1,15 @@
+name = "ex_stdlib"
+version = "0.1.0"
+license = "MIT"
+author = "Tomohiro Degawa"
+copyright = "Copyright 2021, Tomohiro Degawa"
+description="Example usage of parameters, types, procedures defined in modules in Fortran stdlib"
+
+[build]
+auto-executables = true
+
+[install]
+library = false
+
+[dependencies]
+stdlib = {git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm"}
