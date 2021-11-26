@@ -1,0 +1,6 @@
+build
+.mod
+.vscode
+.fortls
+
+*.txt
