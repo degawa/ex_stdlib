@@ -94,7 +94,7 @@ stdlibの機能を3種類に分類し，モジュールを作成．モジュー�
 2. type
 3. function
 
-stdlibの分類は，Utilities/Algorithms/Mathematicsだが，別観点から分類．
+stdlibの分類は，Programming/Algorithms/Mathematicsだが，別観点から分類．
 
 ### system
 - error
