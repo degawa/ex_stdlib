@@ -90,11 +90,11 @@ fpm run --compiler ifort --flag "/fpp"
 ## stdlibの使用例
 stdlibの機能を3種類に分類し，モジュールを作成．モジュールサブルーチンを定義し，その中で個別の機能を用いた処理を実装した．
 
-1. system
-2. type
-3. function
+1. system - Fortranに組込で入っていてほしい機能
+2. type - 組込型およびユーザ定義型
+3. function - その他
 
-stdlibの分類は，Programming/Algorithms/Mathematicsだが，別観点から分類．
+stdlibの分類は，Utilities/Algorithms/Mathematicsだが，別観点から分類．
 
 ### system
 - error
